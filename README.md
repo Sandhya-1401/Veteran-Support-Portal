@@ -1,6 +1,6 @@
 # <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px"> Veteran Support & Assistance Portal <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px">    
  
-*A platform empowering retired military personnel with career opportunities, government schemes, and community support.*  
+*A Platform Empowering Retired Military Personnel with Career Opportunities, Government Schemes, and Community Support.*  
 
 ## ✨ **Overview**
 Veteran Support & Assistance Portal is a **Single Page Application (SPA)** that helps retired military personnel transition to civilian life.<br> 
@@ -33,7 +33,7 @@ It provides **Job Opportunities, Government Schemes, Welfare, Community Networki
 
 **[Image 3]** ![welfare](https://github.com/user-attachments/assets/b817726b-d71d-4b6f-a6dc-36c0404a7074)
 
-**Empowering Veterans for a Brighter Future JAY HIND <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px">**<br>
+**Empowering Veterans for a Brighter Future <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px"> JAY HIND <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px">**<br>
 ⭐ **If you like this project, don’t forget to Star it on GitHub !!** ⭐<br>  
 
 [![GitHub Stars](https://img.shields.io/github/stars/Sandhya-1401/Veteran-Support-Portal?style=social)](https://github.com/Sandhya-1401/Veteran-Support-Portal)  
