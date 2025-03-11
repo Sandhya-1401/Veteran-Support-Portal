@@ -1,13 +1,14 @@
-# **📖 How to Use Veteran Support & Assistance Portal 🎖️** 
+# **How to Use Veteran Support & Assistance Portal 🎖️**  
 
 This guide explains how to set up and run the **Veteran Support & Assistance Portal** on your local machine.  
 
 ## 🛠 Prerequisites  
 Before starting, ensure you have the following installed:  
-✔ **Node.js** (**[Download Here](https://nodejs.org/)**)  
-✔ **MongoDB** (For local database usage)  
-✔ **Git** (**[Download Here](https://git-scm.com/)**)  
 
+✔ **Node.js** (**[Download Here](https://nodejs.org/)**) 
+✔ **Git** (**[Download Here](https://git-scm.com/)**)
+✔ **MongoDB** (For local database usage)  
+  
 ## 🚀 Installation & Setup  
 
 ### **1️⃣ Clone the Repository**  
@@ -15,6 +16,7 @@ Open a terminal and run:
 ```sh
 git clone https://github.com/Sandhya-1401/Veteran-Support-Portal.git
 cd Veteran-Support-Portal
+```
 
 ### **2️⃣ Extract the Compressed Files**  
 - Unzip the compressed `node_modules` folders inside:  
@@ -41,7 +43,6 @@ npm start
 ```
 - This will install backend dependencies and start the Express.js server.  
 
-
 ### **4️⃣ Setup Environment Variables**  
 Create a `.env` file inside the `backend` folder and add:  
 ```env
@@ -55,8 +56,15 @@ JWT_SECRET=your_secret_key
 - **Frontend:** Runs on `http://localhost:4200/`  
 - **Backend API:** Runs on `http://localhost:5000/`  
 
-🎉 **Your project is now up & running!**  
-
+🎉 **Your project is now up & running !! 🚀**  
 
 ## 🙌 Contributing & Support  
-If you encounter any issues or want to contribute, feel free to **raise an issue** or **submit a pull request**! 🚀  
+If you encounter any issues or want to contribute, feel free to **Raise an issue** or **Submit a pull request**  <br>
+
+**📬 Contact**
+**👩‍💻 Developed by:** Rana Sandhya
+**📧 Email:** ranasandhya093@gmail.com
+**🔗 GitHub:** github.com/Sandhya-1401
+**🔗 LinkedIn:** linkedin.com/in/rana-sandhya1729
+<br>
+**Thank You**
