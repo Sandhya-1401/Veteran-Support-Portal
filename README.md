@@ -26,13 +26,13 @@ It provides **Job Opportunities, Government Schemes, Welfare, Community Networki
 - **Deployment:** (Future) AWS / Vercel
 
 ## 📸 **Screenshots** (Add images here)
-![Veteran Support Portal](https://via.placeholder.com/800x400.png?text=Veteran+Support+Portal)  
-_Above: Dashboard Interface_  
- 
+![Veteran Support Portal] 
+Image 1] ![home](https://github.com/user-attachments/assets/e2269977-b711-4bc8-b3b2-90875bf5ad94)
+Image 2] ![features](https://github.com/user-attachments/assets/41ae3452-48b6-46ec-963c-206fd0e9409c)
  
 [Project Status](https://img.shields.io/badge/Status-Completed-green) 
-**🎖️ Empowering Veterans for a Brighter Future! 🎖️**
-**⭐ If you like this project, don’t forget to star it on GitHub !! ⭐**
-**Give Stars:** [GitHub Stars](https://img.shields.io/github/stars/Sandhya-1401/Veteran-Support-Portal?style=social) 
+!**🎖️ Empowering Veterans for a Brighter Future! 🎖️**
+!**⭐ If you like this project, don’t forget to star it on GitHub !! ⭐**
+!**Give Stars:** [GitHub Stars](https://img.shields.io/github/stars/Sandhya-1401/Veteran-Support-Portal?style=social) 
 
 [GitHub Forks](https://img.shields.io/github/forks/Sandhya-1401/Veteran-Support-Portal?style=social)  
