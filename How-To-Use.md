@@ -1,4 +1,4 @@
-# **How to Use Veteran Support & Assistance Portal <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="24px">**  
+# **How to Use Veteran Support & Assistance Portal <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width="25px" hight="40px">**  
 
 This guide explains how to set up and run the **Veteran Support & Assistance Portal** on your local machine.  
 
