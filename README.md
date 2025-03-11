@@ -2,8 +2,8 @@
 *A platform empowering retired military personnel with career opportunities, government schemes, and community support.*  
 
 ## ✨ **Overview**
-Veteran Support & Assistance Portal is a **Single Page Application (SPA)** that helps retired military personnel transition to civilian life. 
-It provides **Job Opportunities, Government Schemes, Welfare, Community Networking, and Financial aid**.  
+!Veteran Support & Assistance Portal is a **Single Page Application (SPA)** that helps retired military personnel transition to civilian life. 
+!It provides **Job Opportunities, Government Schemes, Welfare, Community Networking, and Financial aid**.  
 
 ## 🔥 **Key Features**
 ✔ **Veteran Registration & Verification** - Secure authentication for veterans.  
@@ -25,11 +25,11 @@ It provides **Job Opportunities, Government Schemes, Welfare, Community Networki
 - **Version Control:** Git & GitHub  
 - **Deployment:** (Future) AWS / Vercel
 
-## 📸 **Screenshots** (Add images here)
-![Veteran Support Portal] 
-Image 1] ![home](https://github.com/user-attachments/assets/e2269977-b711-4bc8-b3b2-90875bf5ad94)
-Image 2] ![features](https://github.com/user-attachments/assets/41ae3452-48b6-46ec-963c-206fd0e9409c)
- 
+## 📸 **Screenshots** 
+!**Image 1]** [home](https://github.com/user-attachments/assets/e2269977-b711-4bc8-b3b2-90875bf5ad94)
+!**Image 2]** ![raksha-mantri](https://github.com/user-attachments/assets/bc0df720-c123-4c1d-abb4-1c14b3e3dc5c)
+!**Image 3]** ![welfare](https://github.com/user-attachments/assets/bca8a92c-5185-4cc6-8751-3c8a250a9aee)
+
 [Project Status](https://img.shields.io/badge/Status-Completed-green) 
 !**🎖️ Empowering Veterans for a Brighter Future! 🎖️**
 !**⭐ If you like this project, don’t forget to star it on GitHub !! ⭐**
