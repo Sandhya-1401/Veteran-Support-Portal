@@ -1,8 +1,9 @@
-# Veteran Support & Assistance Portal 🎖️  
+# ![Indian Flag](https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg) Veteran Support & Assistance Portal 🎖️  
+ 
 *A platform empowering retired military personnel with career opportunities, government schemes, and community support.*  
 
 ## ✨ **Overview**
-Veteran Support & Assistance Portal is a **Single Page Application (SPA)** that helps retired military personnel transition to civilian life. 
+Veteran Support & Assistance Portal is a **Single Page Application (SPA)** that helps retired military personnel transition to civilian life.<br> 
 It provides **Job Opportunities, Government Schemes, Welfare, Community Networking, and Financial aid**.  
 
 ## 🔥 **Key Features**
@@ -26,15 +27,15 @@ It provides **Job Opportunities, Government Schemes, Welfare, Community Networki
 - **Deployment:** (Future) AWS / Vercel
 
 ## 📸 **Screenshots** 
-**Image 1]** ![home](https://github.com/user-attachments/assets/8ce119ce-b2af-40be-93f4-3e9959841bc7)
+**[Image 1]** ![home](https://github.com/user-attachments/assets/8ce119ce-b2af-40be-93f4-3e9959841bc7)
 
-**Image 2]** ![raksha-mantri](https://github.com/user-attachments/assets/0ad01cd2-f3ab-4620-bb92-eee5ca3b3891)
+**[Image 2]** ![raksha-mantri](https://github.com/user-attachments/assets/0ad01cd2-f3ab-4620-bb92-eee5ca3b3891)
 
-**Image 3]** ![welfare](https://github.com/user-attachments/assets/b817726b-d71d-4b6f-a6dc-36c0404a7074)
+**[Image 3]** ![welfare](https://github.com/user-attachments/assets/b817726b-d71d-4b6f-a6dc-36c0404a7074)
 
-[Project Status](https://img.shields.io/badge/Status-Completed-green) 
-!**🎖️ Empowering Veterans for a Brighter Future! 🎖️**
-!**⭐ If you like this project, don’t forget to star it on GitHub !! ⭐**
-!**Give Stars:** [GitHub Stars](https://img.shields.io/github/stars/Sandhya-1401/Veteran-Support-Portal?style=social) 
+!**🎖️ Empowering Veterans for a Brighter Future! 🎖️**<br>
+!**⭐ If you like this project, don’t forget to star it on GitHub !! ⭐**<br>
 
+!**Give Stars:** [Stars](https://img.shields.io/github/stars/Sandhya-1401/Veteran-Support-Portal?style=social) 
+!**Project Status:** [Project Status](https://img.shields.io/badge/Status-Completed-green)
 [GitHub Forks](https://img.shields.io/github/forks/Sandhya-1401/Veteran-Support-Portal?style=social)  
