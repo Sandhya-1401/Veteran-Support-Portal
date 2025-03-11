@@ -5,9 +5,9 @@ This guide explains how to set up and run the **Veteran Support & Assistance Por
 ## 🛠 Prerequisites  
 Before starting, ensure you have the following installed:  
 
-✔ **Node.js** (**[Download Here](https://nodejs.org/)**) 
-✔ **Git** (**[Download Here](https://git-scm.com/)**)
-✔ **MongoDB** (For local database usage)  
+✔ **Node.js** (**[Download Here](https://nodejs.org/)**) <br>
+✔ **Git** (**[Download Here](https://git-scm.com/)**) <br>
+✔ **MongoDB** (For local database usage)  <br>
   
 ## 🚀 Installation & Setup  
 
@@ -61,10 +61,11 @@ JWT_SECRET=your_secret_key
 ## 🙌 Contributing & Support  
 If you encounter any issues or want to contribute, feel free to **Raise an issue** or **Submit a pull request**  <br>
 
-**📬 Contact**
-**👩‍💻 Developed by:** Rana Sandhya
-**📧 Email:** ranasandhya093@gmail.com
-**🔗 GitHub:** github.com/Sandhya-1401
-**🔗 LinkedIn:** linkedin.com/in/rana-sandhya1729
+**📬 Contact** <br>
+**👩‍💻 Developed by:** Rana Sandhya <br>
+**📧 Email:** ranasandhya093@gmail.com <br>
+**🔗 GitHub:** github.com/Sandhya-1401 <br>
+[GitHub](github.com/Sandhya-1401)<br>
+**🔗 LinkedIn:** linkedin.com/in/rana-sandhya1729 <br>
 <br>
 **Thank You**
