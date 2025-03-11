@@ -62,9 +62,9 @@ JWT_SECRET=your_secret_key
 If you encounter any issues or want to contribute, feel free to **Raise an issue** or **Submit a pull request**  <br>
 
 **📬 Contact** <br>
-**👩‍💻 Developed by:** Rana Sandhya <br>
-**📧 Email:** ranasandhya093@gmail.com <br>
-**🔗 GitHub:** [Link](github.com/Sandhya-1401)<br>
-**🔗 LinkedIn:** [Link](linkedin.com/in/rana-sandhya1729)<br>
+**Developed by:** Rana Sandhya <br>
+**Email:** ranasandhya093@gmail.com <br>
+**GitHub:** [Link](github.com/Sandhya-1401)<br>
+**LinkedIn:** [Link](linkedin.com/in/rana-sandhya1729)<br>
 
 **Thank You**
