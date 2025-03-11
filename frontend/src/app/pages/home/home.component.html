@@ -1,0 +1,176 @@
+<section class="hero">
+    <video autoplay loop muted playsinline class="hero-video">
+        <source src="/assets/images/try.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="hero-overlay"></div> <!-- Optional overlay for readability -->
+
+    <div class="hero-content">
+        <h1>Welcome to the Indian Armed Veteran Support Portal</h1>
+        <p><b>Empowering Our Heroes with Job Opportunities, Pention Schemas, Welfare and Assistance</b></p>
+        <p><b> Jay Hind </b></p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+</section>
+
+<section class="features">
+
+    <div class="card" (click)="navigate('/updates')">
+        <div class="card-image">
+            <img src="assets/images/up.png" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <!-- <h2><a routerLink="/updates">Updates</a></h2> -->
+            <h2>Updates</h2>
+        </div>
+    </div>
+
+    <div class="card" (click)="navigate('/new-regiment/work-opp/gov-job')">
+        <div class="card-image">
+            <img src="assets/images/gj111.png" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <h2>Gov opportunities</h2>
+            <!-- <p>Find career opportunities tailored for veterans.</p> -->
+        </div>
+    </div>
+    <div class="card" (click)="navigate('/new-regiment/work-opp/private-sector-job')">
+        <div class="card-image">
+            <img src="assets/images/private_job.jpg" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <h2>Private opportunities</h2>
+            <!-- <p>Find career opportunities tailored for veterans.</p> -->
+        </div>
+    </div>
+
+    <div class="card" (click)="navigate('/forum')">
+        <div class="card-image">
+            <img src="assets/images/asdfg.png" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <h2>Forum</h2>
+            <!-- <p>Find career opportunities tailored for veterans.</p> -->
+        </div>
+    </div>
+
+    <div class="card" (click)="navigate('/contact-us')">
+        <div class="card-image">
+            <img src="assets/images/cont.png" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <h2>Conatct Us</h2>
+            <!-- <p>Find career opportunities tailored for veterans.</p> -->
+        </div>
+    </div>
+
+    <div class="card" (click)="navigate('/faqs')">
+        <div class="card-image">
+            <img src="assets/images/faqs.png" alt="Book Cover" class="styled-image">
+        </div>
+        <div class="card-content">
+            <h2>FAQs</h2>
+            <!-- <p>Find career opportunities tailored for veterans.</p> -->
+        </div>
+    </div>
+</section>
+
+<section class="stats-section" #statsSection>
+    <div class="stat-card">
+      <h3>Total Veterans</h3>
+      <p class="counter" id="veteransCount">0</p>
+    </div>
+    
+    <div class="stat-card">
+      <h3>Established Since (Year)</h3>
+      <p class="counter" id="establishedYear">0</p>
+    </div>
+    
+    <div class="stat-card">
+      <h3>Achievers</h3>
+      <p class="counter" id="achieversCount">0</p>
+    </div>
+  </section>
+
+  <section class="links-section">
+    <div class="links-container">
+        <!-- Important Links -->
+        <div class="links-group">
+            <h2>Important Links</h2>
+            <div class="links-columns">
+                <ul>
+                    <li><a href="#">Indian Army Veterans Portal</a></li>
+                    <li><a href="#">Directorate of Air Veterans (DAV)</a></li>
+                    <li><a href="#">Monthly Summary Report</a></li>
+                    <li><a href="#">Sainik Samachar</a></li>
+                    <li><a href="#">DESW Monthly Newsletters</a></li>
+                    <li><a href="#">Department of Ex-servicemen Welfare (DESW)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Annual Report</a></li>
+                    <li><a href="#">One Rank One Pension (OROP) eBook</a></li>
+                    <li><a href="#">PCDA (Pension)</a></li>
+                    <li><a href="#">Battle Casualties</a></li>
+                    <li><a href="#">Sainik Rest Houses</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Related Links -->
+        <div class="links-group">
+            <h2>Related Links</h2>
+            <div class="links-columns">
+                <ul>
+                    <li><a href="#">Armed Forces Flag Day Fund (AFFDF)</a></li>
+                    <li><a href="#">Ministry of Defence</a></li>
+                    <li><a href="#">Indian Army (IMA)</a></li>
+                    <li><a href="#">Indian Air Force (IAF)</a></li>
+                    <li><a href="#">Indian Navy (INA)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Controller General of Defence Accounts (CGDA)</a></li>
+                    <li><a href="#">National Informatics Centre (NIC)</a></li>
+                    <li><a href="#">Army Welfare Education Society (AWES)</a></li>
+                    <li><a href="#">Directorate General Resettlement (DGR)</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="promoter-container">
+    <div class="promoter-slider">
+      <img src="assets/images/my_gov.png" alt="My Gov">
+      <img src="assets/images/Armed_forces_logo.png" alt="Armed Force">
+      <img src="assets/images/airforce.jpeg" alt="Indian Airforce">
+      <img src="assets/images/army.png" alt="Indian Army">
+      <img src="assets/images/navy.jpeg" alt="Indian Navy">
+      <img src="assets/images/data_gov_in.png" alt="Gov Data">
+      <img src="assets/images/pmnrf.jpeg" alt="PMNRF">
+      <img src="assets/images/nic.png" alt="NIC">
+      <img src="assets/images/mak_in_india.jpeg" alt="Make in India">
+      <img src="assets/images/digital_india.png" alt="Digital India">
+      <img src="assets/images/awes.jpeg" alt="awes">
+      <img src="assets/images/g20.png" alt="G20">
+      <img src="assets/images/dps.jpeg" alt="DPS">
+      <img src="assets/images/gov_india.jpeg" alt="Gov India">
+
+      <img src="assets/images/my_gov.png" alt="My Gov">
+      <img src="assets/images/Armed_forces_logo.png" alt="Armed Force">
+      <img src="assets/images/airforce.jpeg" alt="Indian Airforce">
+      <img src="assets/images/army.png" alt="Indian Army">
+      <img src="assets/images/navy.jpeg" alt="Indian Navy">
+      <img src="assets/images/data_gov_in.png" alt="Gov Data">
+      <img src="assets/images/pmnrf.jpeg" alt="PMNRF">
+      <img src="assets/images/nic.png" alt="NIC">
+      <img src="assets/images/mak_in_india.jpeg" alt="Make in India">
+      <img src="assets/images/digital_india.png" alt="Digital India">
+      <img src="assets/images/awes.jpeg" alt="awes">
+      <img src="assets/images/g20.png" alt="G20">
+      <img src="assets/images/dps.jpeg" alt="DPS">
+      <img src="assets/images/gov_india.jpeg" alt="Gov India">
+    </div>
+</div>

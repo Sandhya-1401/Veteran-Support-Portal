@@ -1,0 +1,88 @@
+<nav class="navbar">
+  <div class="container">
+    <!-- Logo and Title -->
+    <a class="logo" (click)="navigate('/')">
+      <img src="assets/images/military.gif" alt="Veteran Support Logo">
+      <h1>Veteran Support Portal</h1>
+    </a>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a (click)="navigate('/')">Home</a></li>
+
+      <!-- Dashboard Dropdown -->
+      <li class="dropdown" (mouseenter)="showDropdownMenu('dashboard')" (mouseleave)="hideDropdownMenu('dashboard')">
+        <a (click)="navigate('/')">Dashboard</a>
+        <ul class="dropdown-menu" [class.show]="activeDropdown === 'dashboard'"
+          (mouseenter)="keepDropdownOpen('dashboard')" (mouseleave)="hideDropdownMenu('dashboard')">
+          <li><a (click)="navigate('/dashboard/roles')">Roles and Responsibilities</a></li>
+          <li><a (click)="navigate('/dashboard/legends')">Our Legends</a></li>
+          <li><a (click)="navigate('/dashboard/gallery')">Gallery & Video</a></li>
+          <li><a (click)="navigate('/dashboard/mission')">Mission & Vision</a></li>
+        </ul>
+      </li>
+
+    
+      <!-- New Regiment Dropdown -->
+      <li class="dropdown" (mouseenter)="showDropdownMenu('newRegiment')" (mouseleave)="hideDropdownMenu('newRegiment')">
+        <a (click)="navigate('/new-regiment')">New Regiment</a>
+        <ul class="dropdown-menu" [class.show]="activeDropdown === 'newRegiment'"
+          (mouseenter)="keepDropdownOpen('newRegiment')" (mouseleave)="hideDropdownMenu('newRegiment')">
+
+          <!-- Work Opportunities (With Nested Dropdown) -->
+          <li class="sub-dropdown" (mouseenter)="showSubDropdownMenu('workOpportunities')"
+              (mouseleave)="hideSubDropdownMenu('workOpportunities')">
+            <a (click)="navigate('/new-regiment/work-opp')">Work Opportunities</a>
+            <ul class="sub-dropdown-menu" [class.show]="activeSubDropdown === 'workOpportunities'">
+              <li><a (click)="navigate('/new-regiment/work-opp/defence-job')">Defense Jobs</a></li>
+              <li><a (click)="navigate('new-regiment/work-opp/gov-job')">Government Jobs</a></li>
+              <li><a (click)="navigate('new-regiment/work-opp/private-sector-job')">Private Sector Jobs</a></li>
+              <li><a (click)="navigate('new-regiment/work-opp/corporate-initative')">Corporate Initatives</a></li>
+              <li><a (click)="navigate('new-regiment/work-opp/job-fair')">Job Fair</a></li>
+            </ul>
+          </li>
+
+          <!-- Training (With Nested Dropdown) -->
+          <li class="sub-dropdown" (mouseenter)="showSubDropdownMenu('Training')"
+              (mouseleave)="hideSubDropdownMenu('Training')">
+            <a (click)="navigate('/landing-page/overview')">Training</a>
+            <ul class="sub-dropdown-menu" [class.show]="activeSubDropdown === 'Training'">
+              <li><a (click)="navigate('/jobs/defense')">Officer Course</a></li>
+              <li><a (click)="navigate('/jobs/government')">JCO OR NCO Course</a></li>
+              <li><a (click)="navigate('/jobs/private')">Trainig</a></li>
+              <li><a (click)="navigate('/jobs/private')">Defence Training Staff</a></li>
+              <li><a (click)="navigate('/jobs/private')">NCC Staff</a></li>
+              <li><a (click)="navigate('/jobs/private')">Sainic School</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Pension Dropdown -->
+      <li class="dropdown" (mouseenter)="showDropdownMenu('pension')" (mouseleave)="hideDropdownMenu('pension')">
+        <a (click)="navigate('/forum')">Pension</a>
+        <ul class="dropdown-menu" [class.show]="activeDropdown === 'pension'" 
+          (mouseenter)="keepDropdownOpen('pension')" (mouseleave)="hideDropdownMenu('pension')">
+          <li><a (click)="navigate('/pension/services')">Service Pension</a></li>
+          <li><a (click)="navigate('/pension/disability')">Disability Pension</a></li>
+          <li><a (click)="navigate('/pension/family')">Family Pension</a></li>
+          <li><a (click)="navigate('/pension/raksha')">Raksha Mantri Committee</a></li>
+        </ul>
+      </li>
+
+      <!-- Schema Dropdown -->
+      <li class="dropdown" (mouseenter)="showDropdownMenu('schema')" (mouseleave)="hideDropdownMenu('schema')">
+        <a (click)="navigate('/jobs')">Schema</a>
+        <ul class="dropdown-menu" [class.show]="activeDropdown === 'schema'" 
+          (mouseenter)="keepDropdownOpen('schema')" (mouseleave)="hideDropdownMenu('schema')">
+          <li><a (click)="navigate('/schema/self-employ')">Self Employment Schema</a></li>
+          <li><a (click)="navigate('/schema/welfare')">Welfare Schema</a></li>
+          <li><a (click)="navigate('/schema/pmss')">PMSS</a></li>
+        </ul>
+      </li>
+
+
+      <li><a (click)="navigate('/login')">Login</a></li>
+    </ul>
+  </div>
+</nav>

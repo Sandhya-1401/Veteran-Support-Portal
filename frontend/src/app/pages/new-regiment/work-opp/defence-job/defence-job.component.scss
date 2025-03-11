@@ -1,0 +1,118 @@
+.defence-jobs-container {
+    font-family: 'Poppins', sans-serif;
+    background: #eae4e4;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #002147;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 18px;
+    color: #444;
+    max-width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+/* Job Listings Grid */
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: left;
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}
+
+.apply-btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Job Categories */
+.job-category {
+    margin: 40px 0;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    max-width: 220px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+}
+.category-card img {
+    width: 140px;
+    height:55%;
+    // object-fit: cover;
+    // border-radius: 10%;
+}
+
+/* Application Process */
+.application-process {
+    margin: 40px auto;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-item {
+    background: #bca4ef;
+   
+    // color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+.timeline-content {
+    color: #280202;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cta-section {
+    text-align: center;
+    margin-top: 30px;
+}

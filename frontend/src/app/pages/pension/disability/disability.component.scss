@@ -1,0 +1,133 @@
+.disability-pension {
+    font-family: 'Poppins', sans-serif;
+    background: #eae4e4;
+    text-align: center;
+    padding: 3rem 2rem;
+  
+    .hero-banner {
+      background: url('/assets/images/try2.png') no-repeat center center/cover;
+      color: #000000;
+      padding: 4rem;
+      border-radius: 12px;
+      font-size: 22.3px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+  
+    .eligibility {
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+      }
+  
+      .eligibility-steps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1.4rem;
+  
+        .step {
+          background: white;
+          padding: 1rem;
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+          width: 20%;
+          transition: transform 0.3s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  
+    .benefits {
+      margin-top: 2rem;
+      h2 {
+        font-size: 1.8rem;
+      }
+  
+      .benefit-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+  
+        .benefit-card {
+          background: white;
+          padding: 1.5rem;
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+          transition: transform 0.3s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  
+    .how-to-apply {
+      margin-top: 2rem;
+      h2{
+        font-size: 27px;
+      }
+  
+      .application-steps {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+  
+        .step {
+          width: 22%;
+          text-align: center;
+          padding: 1rem;
+        }
+      }
+  
+      .apply-btn {
+        background: #d32f2f;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 8px;
+        display: inline-block;
+        margin-top: 1rem;
+      }
+    }
+  
+    .faq-section {
+      margin-top: 2rem;
+  
+      details {
+        margin: 1rem 0;
+        cursor: pointer;
+      }
+    }
+  
+    .cta {
+      margin-top: 3rem;
+      background: #786cb0;
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      background: white;
+      color: #d32f2f;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+
+      &:hover {
+        background: #b71c1c;
+        color: white;
+      }
+    }
+  }
+  

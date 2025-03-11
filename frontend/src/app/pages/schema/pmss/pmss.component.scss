@@ -1,0 +1,138 @@
+.pmss-container {
+    font-family: 'Poppins', sans-serif;
+    background: #eae4e4;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #002147;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 18px;
+    color: #444;
+    max-width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.pmss-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pmss-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    max-width: 230px;
+}
+
+.pmss-card:hover {
+    transform: translateY(-8px);
+}
+.pmss-card img {
+    width: 100%;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.info-section {
+    text-align: center;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.info-card {
+    background: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.doc-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.doc-item {
+    background: #eef;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-item {
+    background: #bca4ef;
+    // color: rgb(32, 12, 109);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+.timeline-content {
+    color: #280202;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+// .apply-btn {
+//     text-decoration: none;
+//     background: #ff6600;
+//     color: white;
+//     padding: 15px 25px;
+//     border-radius: 8px;
+//     font-size: 18px;
+//     font-weight: bold;
+//     display: inline-block;
+// }
+
+.apply-btn{
+    background: #ff6600;
+    color: #d32f2f;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+      background: #b71c1c;
+      color: white;
+    }
+}

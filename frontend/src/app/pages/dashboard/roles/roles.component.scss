@@ -1,0 +1,60 @@
+.roles-responsibilities {
+  font-family: 'Poppins', sans-serif;
+  background: #eae4e4;
+    padding: 30px 0;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      text-align: center;
+  
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #333;
+      }
+  
+      .roles-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+  
+        .role-card {
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+          padding: 20px;
+          width: 300px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+          &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+          }
+  
+          .icon {
+            margin-bottom: 15px;
+  
+            img {
+              width: 80px;
+              height: 80px;
+            }
+          }
+  
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #e45d3f;
+          }
+  
+          p {
+            font-size: 1rem;
+            color: #2f2d2d;
+          }
+        }
+      }
+    }
+  }
+  

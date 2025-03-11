@@ -1,0 +1,168 @@
+.mission-vision {
+    font-family: 'Poppins', sans-serif;
+    background: #eae4e4;
+    text-align: center;
+    padding: 3rem 2rem;
+  
+    .hero-banner {
+      background: url('/assets/images/try2.png') no-repeat center center/cover;
+      color: rgb(0, 0, 0);
+      padding: 4rem;
+      border-radius: 12px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+      }
+    }
+  
+    .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+      gap: 2rem;
+  
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+  
+      .card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        width: 45%;
+        transition: transform 0.3s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.03);
+        }
+  
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+  
+        h2 {
+          font-size: 1.8rem;
+          color: #222;
+          margin-bottom: 1rem;
+        }
+  
+        p {
+          font-size: 1.2rem;
+          color: #3a3939;
+        }
+  
+        ul {
+          text-align: left;
+          margin-top: 1rem;
+          padding-left: 1rem;
+    
+  
+          li {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            &:before {
+              content: '';
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+  
+      .mission {
+        border-top: 5px solid #d32f2f;
+      }
+  
+      .vision {
+        border-top: 5px solid #1565c0;
+      }
+    }
+  
+    .why-choose {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        
+      }
+  
+      .reasons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  
+        .reason {
+          width: 22%;
+          text-align: center;
+          padding: 1rem;
+  
+          @media (max-width: 768px) {
+            width: 45%;
+          }
+  
+          @media (max-width: 480px) {
+            width: 100%;
+          }
+  
+          img {
+            width: 160px;
+            height: 130px;
+          }
+  
+          h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+            color: #275bd4;
+          }
+  
+          p {
+            font-size: 1.2rem;
+            color: #555;
+          }
+        }
+      }
+    }
+  
+    .cta {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: #786cb0;
+      color: white;
+      border-radius: 12px;
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      button {
+        background: white;
+        color: #d32f2f;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        font-size: 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+  
+        &:hover {
+          background: #b71c1c;
+          color: white;
+        }
+      }
+    }
+  }
+  

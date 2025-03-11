@@ -1,0 +1,133 @@
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  background-color: #a7b9c0;
+  padding: 5px;
+  // position: fixed;
+  z-index: 1000; /* Keeps navbar above everything */
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+      width: 60px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: rgb(11, 27, 132);
+    }
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    position: relative;
+
+    li {
+      position: relative; /* Needed for the dropdown */
+
+      a {
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #4464cd;
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        
+        &:hover {
+          background-color: #eb5a63;
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    /* Styles for the Dropdown */
+    .dropdown {
+      position: relative;
+
+      .dropdown-menu {
+        position: absolute;
+        top: 135%;
+        left: 0;
+        background-color: #4464cd;
+        border-radius: 8px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 180px;
+        display: none; /* Hidden by default */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        z-index: 999; /* Ensures dropdown appears on top */
+
+        li {
+          width: 100%;
+          
+          a {
+            display: block;
+            padding: 10px;
+            border-radius: 0;
+            text-align: left;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              background-color: #eb5a63;
+              transform: none;
+            }
+          }
+        }
+      }
+      .dropdown-menu.show {
+        opacity: 1;
+        visibility: visible;
+      }
+      .show {
+        display: block;
+      }
+      /* Show dropdown on hover */
+      &:hover .dropdown-menu {
+        display: block;
+      }
+
+      // Nested dropdown styling
+      .sub-dropdown {
+        position: relative;
+
+        .sub-dropdown-menu {
+          position: absolute;
+          top: 0;
+          left: 100%;
+          
+          list-style: none;
+          padding: 10px;
+          border-radius: 2px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+          min-width: 150px;
+        }
+
+        .sub-dropdown-menu.show {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+    }
+  }
+}
